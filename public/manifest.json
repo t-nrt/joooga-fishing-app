@@ -1,0 +1,21 @@
+{
+  "name": "Joooga - フカセ釣りポイント推薦アプリ",
+  "short_name": "Joooga",
+  "description": "城ヶ島を拠点としたフカセ釣りのポイント推薦アプリ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "screenshots": [
+    {
+      "src": "/screenshot-small.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["sports", "lifestyle"],
+  "prefer_related_applications": false
+}

@@ -18,27 +18,62 @@
 
 ```
 Joooga/
-├── README.md                 # このファイル
-├── specs/                    # 設計仕様書
+├── README.md                        # このファイル
+├── package.json                     # Node.js dependencies
+├── tsconfig.json                    # TypeScript設定
+├── next.config.js                   # Next.js設定
+├── tailwind.config.js               # Tailwind CSS設定
+├── postcss.config.js                # PostCSS設定
+├── .eslintrc.json                   # ESLint設定
+├── .gitignore                       # Git ignore設定
+│
+├── app/                             # Next.js App Router
+│   ├── layout.tsx                   # RootLayout
+│   ├── page.tsx                     # ホームページ
+│   ├── globals.css                  # グローバルスタイル
+│   ├── api/                         # API routes（今後）
+│   └── components/                  # React components（今後）
+│
+├── public/                          # 静的アセット
+│   └── manifest.json                # PWA マニフェスト
+│
+├── specs/                           # 設計仕様書
 │   └── 2026-05-26-joooga-fishing-app-design.md
-├── plans/                    # 実装計画
+├── plans/                           # 実装計画
 │   └── 2026-05-26-joooga-phase1.md
-├── docs/                     # その他ドキュメント
-├── design/                   # デザイン資料（今後）
-└── [実装時にsrcフォルダなどが追加]
+├── docs/                            # その他ドキュメント
+└── design/                          # デザイン資料（今後）
 ```
 
-## Phase 1 機能
+## Phase 1 進捗
 
-- ✅ 設計完了：城ヶ島エリア特化ポイント推薦
-- ✅ 計画完了：Next.js + PWA技術スタック
-- ⏳ 実装待ち：Node.js環境インストール後開始
+- ✅ **Task 1/13 完了：** プロジェクト設定・Next.js初期化
+  - package.json（依存関係定義）
+  - TypeScript設定
+  - Next.js + Tailwind CSS設定
+  - PWAマニフェスト設定
+  - 基本ディレクトリ構造
 
-## 次回作業
+- ⏳ Task 2/13：ポイント推薦エンジンの実装
+- ⏳ Task 3/13 以降：気象連携、UI実装など
 
-1. Node.jsインストール確認
-2. Task 1/13から実装開始
-3. MVP完成まで段階的実装
+## セットアップ手順
+
+Node.js 18.17.0 以上がインストール済みの環境で：
+
+```bash
+# 依存関係をインストール
+npm install
+
+# 開発サーバー起動
+npm run dev
+
+# 本番ビルド
+npm run build
+npm start
+```
+
+開発サーバーは `http://localhost:3000` で起動します。
 
 ## 技術スタック
 
