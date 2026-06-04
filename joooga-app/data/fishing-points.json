@@ -1,0 +1,46 @@
+{
+  "points": [
+    {
+      "id": "jogashima-west",
+      "name": "城ヶ島西磯",
+      "lat": 35.134,
+      "lng": 139.617,
+      "facing": "SW",
+      "features": ["根周り", "かけ上がり", "潮通し良好"],
+      "depth": {
+        "min": 8,
+        "max": 15
+      },
+      "warnings": ["根がかり注意", "満潮時滑りやすい"],
+      "access": "徒歩5分"
+    },
+    {
+      "id": "jogashima-east",
+      "name": "城ヶ島東磯",
+      "lat": 35.136,
+      "lng": 139.625,
+      "facing": "SE",
+      "features": ["沖の根", "深場"],
+      "depth": {
+        "min": 12,
+        "max": 20
+      },
+      "warnings": ["潮流強い", "下げ潮注意"],
+      "access": "徒歩10分"
+    },
+    {
+      "id": "akabane-coast",
+      "name": "赤羽根海岸",
+      "lat": 35.145,
+      "lng": 139.628,
+      "facing": "S",
+      "features": ["砂地", "根点在"],
+      "depth": {
+        "min": 6,
+        "max": 12
+      },
+      "warnings": ["台風後は地形変化"],
+      "access": "車横付け可能"
+    }
+  ]
+}
