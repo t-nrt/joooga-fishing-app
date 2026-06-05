@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#3b82f6"/>
+  <g fill="white">
+    <!-- 魚のシルエット -->
+    <path d="M60 96c0-20 20-32 40-32s40 12 40 32-20 32-40 32-40-12-40-32z" fill="white"/>
+    <circle cx="85" cy="90" r="3" fill="#3b82f6"/>
+    <!-- 波のライン -->
+    <path d="M30 120 Q45 115 60 120 T90 120 Q105 115 120 120 T150 120 Q165 115 180 120"
+          stroke="white" stroke-width="2" fill="none"/>
+    <path d="M20 135 Q35 130 50 135 T80 135 Q95 130 110 135 T140 135 Q155 130 170 135"
+          stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M40 150 Q55 145 70 150 T100 150 Q115 145 130 150 T160 150"
+          stroke="white" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+  <!-- アプリ名 -->
+  <text x="96" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif"
+        font-size="20" font-weight="bold">Joooga</text>
+</svg>

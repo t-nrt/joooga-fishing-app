@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#3b82f6"/>
+  <g fill="white">
+    <!-- 魚のシルエット（大きめ） -->
+    <ellipse cx="256" cy="240" rx="120" ry="60" fill="white"/>
+    <circle cx="200" cy="220" r="8" fill="#3b82f6"/>
+    <!-- 尾びれ -->
+    <path d="M136 240 L100 220 L100 260 Z" fill="white"/>
+    <!-- 背びれ -->
+    <path d="M200 180 Q230 160 260 180 Q230 200 200 180" fill="white"/>
+    <!-- 腹びれ -->
+    <path d="M200 300 Q230 320 260 300 Q230 280 200 300" fill="white"/>
+
+    <!-- 波のライン（複数層） -->
+    <path d="M50 320 Q100 300 150 320 T250 320 Q300 300 350 320 T450 320"
+          stroke="white" stroke-width="4" fill="none"/>
+    <path d="M30 360 Q80 340 130 360 T230 360 Q280 340 330 360 T430 360"
+          stroke="white" stroke-width="4" fill="none" opacity="0.8"/>
+    <path d="M70 400 Q120 380 170 400 T270 400 Q320 380 370 400 T470 400"
+          stroke="white" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M20 440 Q70 420 120 440 T220 440 Q270 420 320 440 T420 440"
+          stroke="white" stroke-width="4" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- アプリ名（大きめ） -->
+  <text x="256" y="100" text-anchor="middle" fill="white"
+        font-family="Arial, sans-serif" font-size="48" font-weight="bold">Joooga</text>
+  <text x="256" y="140" text-anchor="middle" fill="white"
+        font-family="Arial, sans-serif" font-size="20" opacity="0.9">フカセ釣りアプリ</text>
+</svg>
