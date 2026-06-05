@@ -1,7 +1,7 @@
 {
   "name": "Joooga - フカセ釣りポイント推薦アプリ",
   "short_name": "Joooga",
-  "description": "城ヶ島を拠点としたフカセ釣りのポイント推薦アプリ",
+  "description": "フカセ釣りポイント推薦アプリ",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

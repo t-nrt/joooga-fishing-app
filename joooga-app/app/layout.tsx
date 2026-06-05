@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Joooga - フカセ釣りポイント推薦アプリ',
-  description: '城ヶ島を拠点としたフカセ釣りのポイント推薦アプリ',
+  description: 'フカセ釣りポイント推薦アプリ',
   manifest: '/manifest.json',
   themeColor: '#3b82f6',
   viewport: {
