@@ -1,9 +1,11 @@
 // src/components/AreaSelector.tsx
 'use client';
 
+import { ResearchRequest } from '../lib/types';
+
 interface AreaSelectorProps {
-  value: string;
-  onChange: (area: string) => void;
+  value: ResearchRequest['area'];
+  onChange: (area: ResearchRequest['area']) => void;
   disabled?: boolean;
 }
 
