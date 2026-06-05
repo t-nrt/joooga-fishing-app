@@ -25,7 +25,7 @@ export default function TargetFishSelector({ value, onChange, disabled = false }
       <select
         value={value.species}
         onChange={(e) => {
-          const selected = options.find(opt => opt.species === e.target.value);
+          const selected = options.find(opt => opt.species === (e.target.value as FishingCondition['species']));
           if (selected) {
             onChange({
               species: selected.species,
