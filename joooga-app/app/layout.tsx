@@ -9,11 +9,12 @@ export const metadata: Metadata = {
   description: 'フカセ釣りポイント推薦アプリ',
   manifest: '/manifest.json',
   themeColor: '#3b82f6',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
