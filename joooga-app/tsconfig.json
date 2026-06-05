@@ -28,7 +28,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "jest.d.ts",
+    "__tests__/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }
