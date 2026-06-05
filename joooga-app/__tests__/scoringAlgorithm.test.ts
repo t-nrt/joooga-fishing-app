@@ -1,6 +1,6 @@
 // __tests__/scoringAlgorithm.test.ts
-import { calculateWeatherScore, calculateSeaScore, calculateFishScore, calculatePointScore, rankPoints } from '@/lib/scoringAlgorithm';
-import { WeatherData, FishingPoint, FishingCondition } from '@/lib/types';
+import { calculateWeatherScore, calculateSeaScore, calculateFishScore, calculatePointScore, rankPoints } from '../src/lib/scoringAlgorithm';
+import { WeatherData, FishingPoint, FishingCondition } from '../src/lib/types';
 
 describe('Scoring Algorithm', () => {
   const mockPoint: FishingPoint = {

@@ -1,9 +1,9 @@
 // src/app/api/research/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { ResearchRequest, ResearchResult } from '@/lib/types';
-import { getPointsByArea } from '@/lib/pointsData';
-import { fetchCurrentWeather } from '@/lib/weatherService';
-import { calculatePointScore, rankPoints } from '@/lib/scoringAlgorithm';
+import { ResearchRequest, ResearchResult } from '../../../lib/types';
+import { getPointsByArea } from '../../../lib/pointsData';
+import { fetchCurrentWeather } from '../../../lib/weatherService';
+import { calculatePointScore, rankPoints } from '../../../lib/scoringAlgorithm';
 
 export async function POST(request: NextRequest) {
   try {

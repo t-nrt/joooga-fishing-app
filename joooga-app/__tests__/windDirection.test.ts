@@ -1,5 +1,5 @@
 // __tests__/windDirection.test.ts
-import { calculateAngleDifference, evaluateWind } from '@/utils/windDirection';
+import { calculateAngleDifference, evaluateWind } from '../src/utils/windDirection';
 
 describe('Wind Direction Utils', () => {
   describe('calculateAngleDifference', () => {

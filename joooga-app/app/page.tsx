@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { ResearchRequest, ResearchResult, FishingCondition } from '@/lib/types';
-import { getPointById } from '@/lib/pointsData';
-import { saveResearchResult, getCachedResearchResult, isOnline, getCacheAge } from '@/lib/storageService';
-import AreaSelector from '@/components/AreaSelector';
-import TargetFishSelector from '@/components/TargetFishSelector';
-import ResearchButton from '@/components/ResearchButton';
-import PointRecommendation from '@/components/PointRecommendation';
+import { ResearchRequest, ResearchResult, FishingCondition } from '../src/lib/types';
+import { getPointById } from '../src/lib/pointsData';
+import { saveResearchResult, getCachedResearchResult, isOnline, getCacheAge } from '../src/lib/storageService';
+import AreaSelector from '../src/components/AreaSelector';
+import TargetFishSelector from '../src/components/TargetFishSelector';
+import ResearchButton from '../src/components/ResearchButton';
+import PointRecommendation from '../src/components/PointRecommendation';
 
 export default function Home() {
   const [area, setArea] = useState<string>('jogashima');

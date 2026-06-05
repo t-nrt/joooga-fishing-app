@@ -1,8 +1,8 @@
 // src/components/PointRecommendation.tsx
 'use client';
 
-import { PointScore, FishingPoint, WeatherData } from '@/lib/types';
-import { formatWindDirection, getWindCondition } from '@/lib/weatherService';
+import { PointScore, FishingPoint, WeatherData } from '../lib/types';
+import { formatWindDirection, getWindCondition } from '../lib/weatherService';
 
 interface PointRecommendationProps {
   score: PointScore;

@@ -1,7 +1,7 @@
 // src/components/TargetFishSelector.tsx
 'use client';
 
-import { FishingCondition } from '@/lib/types';
+import { FishingCondition } from '../lib/types';
 
 interface TargetFishSelectorProps {
   value: FishingCondition;

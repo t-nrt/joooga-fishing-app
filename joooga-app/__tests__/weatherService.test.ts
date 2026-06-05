@@ -1,5 +1,5 @@
 // __tests__/weatherService.test.ts
-import { formatWindDirection, getWindCondition, getMockWeatherData, fetchCurrentWeather } from '@/lib/weatherService';
+import { formatWindDirection, getWindCondition, getMockWeatherData, fetchCurrentWeather } from '../src/lib/weatherService';
 
 describe('Weather Service', () => {
   describe('formatWindDirection', () => {
