@@ -10,7 +10,7 @@ import ResearchButton from '../src/components/ResearchButton';
 import PointRecommendation from '../src/components/PointRecommendation';
 
 export default function Home() {
-  const [area, setArea] = useState<string>('jogashima');
+  const [area, setArea] = useState<ResearchRequest['area']>('jogashima');
   const [targetFish, setTargetFish] = useState<FishingCondition>({
     species: 'grey',
     speciesName: 'グレ専用'
