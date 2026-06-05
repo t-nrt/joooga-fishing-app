@@ -2,7 +2,7 @@
 'use client';
 
 import { PointScore, FishingPoint, WeatherData } from '../lib/types';
-import { formatWindDirection, getWindCondition } from '../lib/weatherService';
+import { formatWindDirection } from '../lib/weatherService';
 
 interface PointRecommendationProps {
   score: PointScore;
